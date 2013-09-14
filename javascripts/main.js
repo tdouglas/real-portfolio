@@ -10,18 +10,18 @@ $(function(){
     arrows    : false
 }));
 
-$('.donut').hide();
-$('.bar-graph').hide();
+// $('.donut').hide();
+// $('.bar-graph').hide();
 
 
-$(".skills-icon").mouseover(function(){
-  $('.donut').show(2200);
-  // $('.donut').css('-webkit-transform', 'translateX(0px) rotate(-1.5turn)');
-  // $('.donut').css('webkit-transition', '-webkit-transform 2s ease-in-out');
-  $(".bar-graph").show();
-  $(this).text('X');
-  $(this).attr('class', 'arrow-fadeOut');
-});
+// $(".skills-icon").mouseover(function(){
+//   // $('.donut').show(2200);
+//   // $('.donut').css('-webkit-transform', 'translateX(0px) rotate(-1.5turn)');
+//   // $('.donut').css('webkit-transition', '-webkit-transform 2s ease-in-out');
+//   // $(".bar-graph").show();
+//   $(this).text('X');
+//   $(this).attr('class', 'transform-icon');
+// });
 
 /*@-webkit-keyframes rollOut {
     0% {-webkit-transform: translateX(0) rotate(0);}
@@ -38,7 +38,7 @@ $(".skills-icon").mouseover(function(){
   }*/
 
 
-$(".arrow-fadeOut").click(function(){
+$(".transform-bottom").click(function(){
   console.log('hit it');
   $('.donut').css('-webkit-transform', 'translateX(500px) rotate(1.5turn)');
   $('.donut').css('webkit-transition', '-webkit-transform 2s ease-in-out');
@@ -160,7 +160,13 @@ function exampleData() {
    //   }
    // });
 
+  // $('#something').click(function() {
+  //     location.reload();
+  // });
+
 });
+
+
 
 
 

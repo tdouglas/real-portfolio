@@ -240,8 +240,15 @@
     border: none;
   }
 
-
 }
+
+@media screen and (min-width: 1021px) and (max-width: 1160px) {
+
+  .donut {
+    right: -21%;
+  }
+}
+
 
 @media screen and (max-width: 600px) {
 /*everything shrinks*/
