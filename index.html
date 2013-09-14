@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0" />
+  <title>TDD</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <link rel="stylesheet"type="text/css" type="text/css" href="css.screen_">
+  <link rel="stylesheet" type="text/css" href="stylesheets/responsive.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/animate-custom.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/carousels.css">
+  <link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:1160px)" href="stylesheets/screen_layout.css">
+
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="css/style_ie.css" />
+    <![endif]-->
+    <!-- jQuery -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <!-- jmpress plugin -->
+  <script type="text/javascript" src="javascripts/jmpress.min.js"></script>
+  <!-- jmslideshow plugin : extends the jmpress plugin -->
+  <script type="text/javascript" src="javascripts/jquery.jmslideshow.js"></script>
+  <script type="text/javascript" src="javascripts/modernizr.custom.48780.js"></script>
+  <script type="text/javascript" src="javascripts/main.js"></script>
+  <script src="javascripts/d3.v2.js"></script>
+  </head>
+
+</head>
+<body>
+  <nav class="strip header grid_12">
+    <div class="grid_3">
+      <a href="#"><img class="tiny-logo" src="images/TD.svg"></a>
+    </div>
+    <div class="navbar grid_8">
+      <ul id="navbar">
+        <li><a href="about.html">About</a></li>
+        <li><a href="journal.html">Journal</a></li>
+        <li id="contact-li">Contact</li>
+      <ul>
+    </div>
+  </nav> <!-- strip header 12 -->
+
+
+
+
+
+  <div class="container grid_12">
+    <div class="launch header grid_12">
+      <div class="logo-lrg">
+        <object data="images/TD.svg" type="image/svg+xml">
+          <!-- if lte IE 8 -->
+          <img src="images/td.png">
+          <!-- |endif| -->
+        </object>
+      </div> <!-- logo-lrg -->
+      <div class="text-body grid_12">
+        <div class="slider">
+          <div class="blank text">
+          </div>
+          <div class="teach text">
+            <h1 id="teach-font">Teach.</h1>
+              <p>Those that know, do.</p>
+              <p>Those that understand, teach.</p> <p id="credit">-Aristotle</p>
+          </div> <!-- teach text -->
+          <div class="design text">
+            <h1 id="design-font">design</h1>
+              <p id="wdbd">Wonderfully designed > beautifully designed.</p> <p>Any day.</p> <p id="credit">-Daniel Burka</p>
+          </div> <!-- design text -->
+          <div class="develop text">
+            <h1 id="develop-font">&#60;/develop></h1>
+              <p id="last">Technical skill is mastery of complexity.</p>
+              <p>Creativity is mastery of simplicity.</p> <p id="credit">-Christopher Zeeman</p>
+          </div> <!-- develop text -->
+         </div> <!-- slider -->
+      </div> <!-- text-body -->
+    </div> <!-- launch header 12 -->
+
+    <div class="brief-intro grid_12">
+      <div class="i-am grid_12">
+        <h3>I<span>'</span>M A</h3>
+        <h4>CODER</h4>
+        <h3 id="and">&</h3>
+        <h4>EDUCATOR</h4>
+      </div> <!-- i-am -->
+      <div class="quote-bio grid_12">
+        <img id="open" src="images/opening-quote.png">
+      </div> <!-- quote-intro -->
+      <div id="quote grid_12">
+        <p>Hi, I'm Tricia Douglas.</p>
+        <p>I'm a web-designer and front-end developer living and working in NYC.</p>
+        <p>As a math teacher, I developed a passion for building technology based tools to enhance the teaching and learning experience.</p>
+      </div> <!-- #quote -->
+      <div class="close">
+        <img id="close" src="images/closing-quote.png">
+      </div> <!-- close -->
+
+
+
+      <div class="about-me icons grid_12">
+        <div id="about" class="grid_4">
+          <a href="about.html"><h3>About Me<h3>
+          <img src="images/info.png"></a>
+        </div>
+        <div id="journal" class="grid_4">
+          <a href="journal.html"><h3>My Journal<h3>
+          <img src="images/journal.png"/></a>
+        </div>
+        <div id="contact" class="grid_4">
+          <h3>Contact Me<h3>
+          <img src="images/contact.png">
+        </div>
+        <div id="space"></div>
+      </div> <!-- about-me icons -->
+
+    </div> <!-- brief-intro -->
+
+    <div class="bxslider grid_12">
+      <section id="jms-slideshow" class="jms-slideshow">
+        <div class="step" data-color="color-1">
+          <div class="jms-content">
+            <h3>Art @t Random</h3>
+            <h4>Brooklyn Museum artwork randomizer</h4>
+            <p>Discover some of Brooklyn Museum's most precious artwork through this customized randomizer application.</p><p id="carousel-quote">"Web design is art wrapped in technology." - James Weaver</span>
+            <a class="jms-link" href="#">Read more</a>
+          </div>
+          <img src="images/artatrandom.png" />
+        </div>
+        <div class="step" data-color="color-2" data-y="900" data-rotate-x="80">
+          <div class="jms-content">
+            <h3>ABC Data</h3>
+            <h4>Delivering Student Data that Counts</h4>
+            <p>The ABC Data system offers a flexible and intuitive way to record and track sensitive performance-based data that is difficult to capture, critical to student success, and too important to leave to chance.</p>
+            <a class="jms-link" href="#">Read more</a>
+          </div>
+          <img src="images/abcdata.png" />
+        </div>
+        <div class="step" data-color="color-3" data-x="-100" data-z="1500" data-rotate="170">
+          <div class="jms-content">
+            <h3>Rich Kid, Poor Kid</h3>
+            <h4>Comparing Academic Performance Trends in Wealthy & Poor School Districts </h4>
+            <p>What correlations lie between NYC Department of Education's state test scores and with the median income levels of the families in each district.</p>
+            <a class="jms-link" href="#">Read more</a>
+          </div>
+          <img src="images/rich-poor.png" />
+        </div>
+      </section>
+    </div><!-- work-carousel jms-slideshow -->
+  </div> <!-- container 12 -->
+</body>
+</html>
